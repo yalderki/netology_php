@@ -9,7 +9,7 @@
 
 	while ($lilac < $x) {
 		$tulip = $lilac;
-		$lilac = $lilac + $peony;
+		$lilac += $peony;
 		$peony = $tulip;
 	};
 	if ($lilac > $x) {
