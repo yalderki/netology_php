@@ -1,7 +1,7 @@
 <?php 
 	
-	$x = rand(0, 100);
-	echo "Number " . $x . "<br />";
+	error_reporting(E_ALL);
+	$x = (int) $_GET['x'];
 
 	$lilac = 1;
 	$peony = 1;
