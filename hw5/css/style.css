@@ -1,0 +1,21 @@
+table {
+	margin: 1rem;
+	color: #333;
+}
+
+table thead tr {
+	background: #edebc0;
+}
+
+table tbody tr:nth-child(odd) {
+	background: #dff0eb;
+}
+
+table tbody tr:nth-child(even) {
+	background: #edebc0;
+}
+
+table th, table td {
+	padding: 1rem;
+}
+
